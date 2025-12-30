@@ -37,7 +37,7 @@ After installing the environment test with
 Everything is encoded in the script `scripts/build.sh`. Run all the steps as
 
 ```bash
-ASK=install_environment  ./scripts/build.sh
+TASK=install_environment  ./scripts/build.sh
 TASK=run_tests  ./scripts/build.sh
 TASK=build_wheel  ./scripts/build.sh
 TASK=test_install_wheel  ./scripts/build.sh
