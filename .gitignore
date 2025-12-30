@@ -1,0 +1,88 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dll
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Pip / build / dist
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# -------------------------
+# CUDA / C++ build outputs
+# -------------------------
+*.o
+*.obj
+*.a
+*.lib
+*.exp
+*.pdb
+*.idb
+*.ilk
+
+# Shared libs
+*.so.*
+*.dylib
+*.dll
+
+# NVCC intermediate files
+*.cu.cpp
+*.fatbin
+*.cubin
+*.ptx
+*.linkinfo
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+_install/
+out/
+build*/          # e.g., build, build-temp.linux-x86_64-cpython-312
+
+# -------------------------
+# pybind11 / compiled extensions
+# -------------------------
+*.pyd
+*.cpython-*.so
+*.cp*.so
+
+# -------------------------
+# IDEs/editors
+# -------------------------
+.vscode/
+.idea/
+*.code-workspace
+
+# -------------------------
+# OS junk
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Logs / temp
+# -------------------------
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak

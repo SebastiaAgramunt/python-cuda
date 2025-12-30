@@ -1,0 +1,3 @@
+recursive-include cuda/include *.h
+recursive-include cuda/src *.cu
+recursive-include src *.h *.cpp
